@@ -70,19 +70,21 @@ public class ListaLigada {
         System.out.println();
     }
 
-    public void inserirInicio(int novoElemento){
-        No novoNoInicio = new No(novoElemento);
-        if (this.inicio != null) {
-            this.inicio = novoNoInicio;
-        } else {
-            No noAtual = inicio;
-            while (noAtual.proximo != null) {
-                noAtual = noAtual.proximo;
-            }
-            noAtual.proximo = novoNoInicio;
-        }
-
-        //terminar em casa
-
+    public void inserirNoInicio(int elemento) {
+        No novoNo = new No(elemento);
+        novoNo.proximo = inicio;
+        inicio = novoNo;
     }
+    
+    public boolean buscarElemento(int elemento) {
+        No atual = inicio;
+        while (atual != null) {
+            if (atual.elemento == elemento) {
+                return true;
+            }
+            atual = atual.proximo;
+        }
+        return false;
+    }
+    
 }
