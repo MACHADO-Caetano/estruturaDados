@@ -1,3 +1,4 @@
+package classes.listaLigada;
 public class ListaLigada {
     public class No {
         public int elemento;
