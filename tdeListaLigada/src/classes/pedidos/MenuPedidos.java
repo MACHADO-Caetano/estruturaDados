@@ -2,7 +2,7 @@ package classes.pedidos;
 
 import java.util.Scanner;
 
-public class menuPedidos {
+public class MenuPedidos {
     public void menuPedidos() {
         Scanner scanner = new Scanner(System.in);
         
@@ -11,7 +11,6 @@ public class menuPedidos {
 
         boolean executar = true;
         
-        try{
         while(executar){
             System.out.println("Selecione a execução do programa:");
             System.out.println("1 - Fazer pedido;");
@@ -93,9 +92,6 @@ public class menuPedidos {
                     System.out.println("Opção inválida!");
                     break;
             }
-            }
-        }catch(Exception e){
-            System.out.println("Erro: " + e.getMessage());
         }
     }
 }

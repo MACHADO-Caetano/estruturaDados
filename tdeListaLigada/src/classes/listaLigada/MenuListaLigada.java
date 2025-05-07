@@ -2,7 +2,7 @@ package classes.listaLigada;
 
 import java.util.Scanner;
 
-public class menuListaLigada {
+public class MenuListaLigada {
     public void menu() {
         ListaLigada lista = new ListaLigada();
         Scanner scanner = new Scanner(System.in);
