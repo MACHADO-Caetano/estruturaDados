@@ -32,7 +32,7 @@ main/tdeListaLigada/src/App.java
 
 ----------------------------------------------------------------------------------------
 
-Execute na IDE e selecione pelas opções o projeto que queres executar.
+Rode na IDE, e assim, selecione pelas opções o projeto para execução no terminal.
 
 
 
